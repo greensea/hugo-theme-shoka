@@ -196,8 +196,9 @@ const scrollHandle = function (event) {
   siteNav.toggleClass('show', SHOW);
   toolBtn.toggleClass('affix', startScroll);
   siteBrand.toggleClass('affix', startScroll);
-  sideBar.toggleClass('affix', window.pageYOffset > headerHight && document.body.offsetWidth > 991);
-
+  // 这一行似乎会导致首页滚动异常，先注释掉了
+  // sideBar.toggleClass('affix', window.pageYOffset > headerHight && document.body.offsetWidth > 991);
+  
   if (typeof scrollAction.y == 'undefined') {
     scrollAction.y = window.pageYOffset;
     //scrollAction.x = Container.scrollLeft;
