@@ -17,7 +17,6 @@ params:
   favicon:
     apple_touch_icon: /apple-touch-icon.png
 
-  darkmode: true
   auto_scroll: true
 
   sidebar:
