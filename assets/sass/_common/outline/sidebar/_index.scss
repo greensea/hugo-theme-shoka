@@ -1,5 +1,6 @@
 #sidebar {
-  position: static;
+  // position: static;
+  position: sticky;
   width: $sidebar-desktop;
   top: 0;
   bottom: 0;
