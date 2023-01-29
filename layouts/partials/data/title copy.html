@@ -1,10 +1,10 @@
 {{- $title := .Title -}}
 {{- $siteTitle := .Site.Title -}}
 {{- if .Site.Params.alternate -}}
-  {{- $siteTitle = print .Site.Params.alternate -}}
+  {{- $siteTitle = print .Site.Params.alternate " = " $siteTitle -}}
 {{- end -}}
 {{- if .Site.Params.subtitle -}}
-  {{- $siteTitle = print $siteTitle -}}
+  {{- $siteTitle = print $siteTitle " = " .Site.Params.subtitle -}}
 {{- end -}}
 
 

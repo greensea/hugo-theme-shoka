@@ -1,9 +1,9 @@
 params:
-  alternate: ''
-  subtitle: subtitle
+  alternate:
+  subtitle: 
   description: this is description
   avatar: avatar.jpg
-  since: 2005
+  since: 2013
 
   statics: /
 
@@ -11,9 +11,9 @@ params:
     github:
       icon: ic i-github
       link: https://github.com
-    twitter:
-      icon: ic i-twitter
-      link: https://twitter.com
+    # twitter:
+    #   icon: ic i-twitter
+    #   link: https://twitter.com
   favicon:
     apple_touch_icon: /apple-touch-icon.png
 
@@ -21,7 +21,7 @@ params:
   auto_scroll: true
 
   sidebar:
-    avatar: avatar.jpg
+    avatar: kotori5.jpg
     position: right
 
   license:
@@ -38,8 +38,8 @@ params:
     switch: false
 
   widgets:
-    random_posts: false
-    recent_comments: false
+    random_posts: true
+    recent_comments: true
 
   algolia:
     vars: ["title", "summary", "path", "content"]
