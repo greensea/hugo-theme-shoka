@@ -29,8 +29,9 @@
 {{- $manifest := resources.Get "manifest.json" | resources.ExecuteAsTemplate (print ("/" | relURL) "manifest.json") . -}}
 <link rel="manifest" href="{{- $manifest.RelPermalink -}}" />
 
-<link rel="apple-touch-icon" href="/images/apple-touch-icon.png" />
-<link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico">
+<!-- <link rel="apple-touch-icon" href="/images/apple-touch-icon.png" /> -->
+<!-- <link rel="icon" type="image/ico" sizes="32x32" href="/images/favicon.ico"> -->
+
 
 {{- partial "html/head/site-schema.html" . -}}
 
