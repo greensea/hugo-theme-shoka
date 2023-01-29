@@ -18,7 +18,9 @@
   }
 
   .toc-child {
-    display: none;
+    // display: none;
+    // 总是显示目录小标题
+    display: block;
   }
 
   .active>.toc-child {
