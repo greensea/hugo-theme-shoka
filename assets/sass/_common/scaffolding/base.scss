@@ -16,6 +16,13 @@ body {
   height: 100%;
 }
 
+.body p {
+  text-indent: 2em;
+}
+.body ul {
+  margin-left: 3em !important;
+}
+
 body {
   background: linear-gradient(to top, var(--body-bg-shadow) 0, var(--grey-1) 20%) no-repeat bottom;
   color: var(--text-color);
