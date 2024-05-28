@@ -15,6 +15,7 @@
 <meta itemprop="description" content="{{- $description -}}" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <title>{{- $title -}}</title>
+
 {{- $sassTemplate := resources.Get "sass/app.scss" -}}
 {{- $styles := $sassTemplate | resources.ToCSS -}}
 {{- if .Site.IsServer -}}
