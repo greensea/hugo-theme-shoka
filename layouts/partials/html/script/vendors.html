@@ -8,4 +8,8 @@
 
 {{ $vendorJsString := delimit ($local.Get "vendorjs") ","  }}
 
-<script {{printf "src='//cdn.jsdelivr.net/combine/%s'" $vendorJsString | safeHTMLAttr}}></script>
+
+<!-- <script {{printf "src='//cdn.jsdelivr.net/combine/%s'" $vendorJsString | safeHTMLAttr}}></script> -->
+<script {{printf "src='//gcore.jsdelivr.net/combine/%s'" $vendorJsString | safeHTMLAttr}}></script>
+
+
