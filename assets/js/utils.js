@@ -34,7 +34,7 @@ const assetUrl = function (asset, type) {
     str.indexOf("gh") > -1 ||
     str.indexOf("combine") > -1
   )
-    return "//cdn.jsdelivr.net/" + str
+    return "//gcore.jsdelivr.net/" + str
 
   if (str.indexOf("http") > -1) return str
 
