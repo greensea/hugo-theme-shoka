@@ -19,6 +19,9 @@ body {
 .body p {
   text-indent: 2em;
 }
+li p {
+  text-indent: 0 !important;
+}
 .body ul {
   margin-left: 3em !important;
 }
